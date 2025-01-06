@@ -6,3 +6,7 @@ export default {
   },
   plugins: [require("rippleui")],
 };
+module.exports = {
+  // ... the rest of your config
+  plugins: [require("rippleui")],
+};
