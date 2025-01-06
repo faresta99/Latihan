@@ -10,9 +10,11 @@ const Home = () => {
           <br />
           Junior Web developer
         </div>
-        <button className="btn btn-primary md:px-16 md:text-[20px] md:mt-8 md:ml-0 ml-44">
-          Buat Website
-        </button>
+        <div className="flex justify-center">
+          <button className="btn btn-primary md:px-16 md:text-[20px] md:mt-8 md:ml-0 ">
+            Buat Website
+          </button>
+        </div>
       </div>
       <div className="pl-11 md:pl-0 md:pr-12 mt-7">
         <img src={gambar1} alt="home" className="md:w-[550px] w-[400px]" />

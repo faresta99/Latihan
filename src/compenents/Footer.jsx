@@ -4,24 +4,24 @@ const Footer = () => {
   return (
     <div className="bg-[#003b46] flex md:gap-44 justify-between px-4 md:px-36 py-5">
       <div className="text-white">
-        <h3 className="font-semibold mb-2">Menu</h3>
+        <h3 className="mb-1">Menu</h3>
         <p>
-          <a href="#" className="text-[13px]">
+          <a href="#" className="text-[10px]">
             Home
           </a>
         </p>
         <p>
-          <a href="#" className="text-[15px]">
+          <a href="#" className="text-[10px]">
             About
           </a>
         </p>
         <p>
-          <a href="#" className="text-[15px]">
+          <a href="#" className="text-[10px]">
             Project
           </a>
         </p>
         <p>
-          <a href="#" className="text-[15px]">
+          <a href="#" className="text-[10px]">
             Layanan
           </a>
         </p>
@@ -32,7 +32,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="text-white">
-        <h3 className="font-semibold mb-2">Media Sosial</h3>
+        <h3 className="mb-1">Media Sosial</h3>
         <p>
           <a href="#" className="text-[13px]">
             Whatsapp
@@ -60,7 +60,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="text-white">
-        <h3 className="font-semibold mb-2">Skill</h3>
+        <h3 className="mb-1">Skill</h3>
         <p>
           <a href="#" className="text-[13px]">
             Html
@@ -82,15 +82,15 @@ const Footer = () => {
           </a>
         </p>
         <p>
-          <a href="#" className="text-[15px]">
+          <a href="#" className="text-[10px]">
             RipleUI
           </a>
         </p>
       </div>
       <div className="text-white">
-        <h3 className="font-semibold mb-2">Hak Cipta</h3>
+        <h3 className="mb-1">Hak Cipta</h3>
         <p>
-          <a href="#" className="text-[13px]">
+          <a href="#" className="text-[10px]">
             @Faresta 2025
           </a>
         </p>

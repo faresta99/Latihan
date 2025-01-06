@@ -1,5 +1,5 @@
 import React from "react";
-import gambar1 from "../assets/4.jpg";
+import gambar1 from "../assets/4.jpeg";
 import { IoMdMenu } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </section>
               </nav>
             </div>
-            <div className="h-full flex flex-row justify-center items-end gap-4">
+            <div className="h-full flex items-start justify-center mt-20 gap-4">
               <button className="bg-white rounded-full p-1">
                 <FaFacebook className="text-2xl text-blue-500" />
               </button>
