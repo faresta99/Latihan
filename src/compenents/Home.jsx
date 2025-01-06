@@ -10,8 +10,8 @@ const Home = () => {
           <br />
           Junior Web developer
         </div>
-        <div className="flex justify-center">
-          <button className="btn btn-primary md:px-16 md:text-[20px] md:mt-8 md:ml-0 ">
+        <div className="flex justify-center md:block">
+          <button className="btn btn-primary md:px-16 md:text-[20px] md:mt-8 ">
             Buat Website
           </button>
         </div>
