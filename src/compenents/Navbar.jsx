@@ -30,7 +30,7 @@ const Navbar = () => {
             <a className="navbar-item text-white">Textimoni</a>
           </ScrollAnimation>
         </div>
-        <input type="checkbox" id="drawer-right" className="drawer-toggle" />z
+        <input type="checkbox" id="drawer-right" className="drawer-toggle" />
         <label htmlFor="drawer-right" className="md:hidden cursor-pointer ">
           <ScrollAnimation>
             <IoMdMenu className="text-3xl text-white" />
