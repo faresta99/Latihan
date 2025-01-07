@@ -1,5 +1,6 @@
 import React from "react";
 import gambar1 from "../assets/aboutme.png";
+import ScrollAnimation from "./ScrollAnimation";
 
 const About = () => {
   return (
@@ -8,22 +9,26 @@ const About = () => {
       id="about"
     >
       <div className="md:pt-20 md:w-1/2 pt-10">
-        <img
-          src={gambar1}
-          alt="about"
-          className="w-[300px] mx-auto md:w-[500px] bg-[#6fb98f] rounded-full pt-6"
-        />
+        <ScrollAnimation>
+          <img
+            src={gambar1}
+            alt="about"
+            className="w-[300px] mx-auto md:w-[500px] bg-[#6fb98f] rounded-full pt-6"
+          />
+        </ScrollAnimation>
       </div>
       <div className="text-white md:pt-36 md:w-1/2 pt-5">
-        <h1 className="text-3xl md:text-6xl md:pb-7 text-center md:text-left pb-3">
-          About Me
-        </h1>
-        <p className="text-[18px] md:text-2xl mx-4 md:mx-0">
-          I am faresta,i am junior developer.working in Pt.Wahyu Perdana
-          BinaMulia as cleaning sevice.I study web programing
-          autodidactically.Now i can make website portfolio using
-          html,css,javascript,react and RippleUI.
-        </p>
+        <ScrollAnimation>
+          <h1 className="text-3xl md:text-6xl md:pb-7 text-center md:text-left pb-3">
+            About Me
+          </h1>
+          <p className="text-[18px] md:text-2xl mx-4 md:mx-0">
+            I am faresta,i am junior developer.working in Pt.Wahyu Perdana
+            BinaMulia as cleaning sevice.I study web programing
+            autodidactically.Now i can make website portfolio using
+            html,css,javascript,react and RippleUI.
+          </p>
+        </ScrollAnimation>
       </div>
     </div>
   );

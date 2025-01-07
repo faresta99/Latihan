@@ -6,6 +6,7 @@ import Projects from "./compenents/Projects";
 import Layanan from "./compenents/Layanan";
 import Testimoni from "./compenents/Testimoni";
 import Footer from "./compenents/Footer";
+import "animate.css";
 
 const App = () => {
   return (
